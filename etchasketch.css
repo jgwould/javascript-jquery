@@ -8,6 +8,22 @@ body{
 h1{
     text-shadow: 0px 1.5px green;  
 }
+#startbutton{
+    width: 80px;
+    height:30px;
+    background-color: white;
+    font-size: 14px;
+    color: green;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+#startbutton:hover{
+    box-shadow: 0px 1px 1px 0px black;
+
+}
 
 .wrapper{
     height: 800px;
@@ -17,9 +33,15 @@ h1{
 
 .wrapper .boxes{
     position: relative;
-    width: 50%;
-    height:50%;
+    width: 400px;
+    height: 400px;
     margin: auto;
     margin-top: 10px;
     background-color: #dcdcdc;
+    border-radius: 2px;
+
+}
+
+.wrapper .boxes:hover{
+    box-shadow: 0px 1px 2px 0px black;
 }
