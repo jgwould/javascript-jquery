@@ -11,9 +11,17 @@
     <body>
         <h1>Etch-a-Sketch</h1>
         <p class="description">Paint a pretty picture</p>
-        <button id="startbutton" onclick="gridsize()">Start</button>
+        <button id="startbutton">Start</button>
         <div class = "wrapper">
-            <div class= "boxes">
+            <div class= "warehouse">
+                <div class="boxes"></div>
+
+            </div>
+            <div class="action">
+                <button id="blackpenbutton" onclick="blackpenbutton()">Black</button>
+                <button id="magicwandbutton" onclick="magicwandbutton()">Magic Wand</button>
+                <button id="eraserbutton" onclick="eraserbutton()">Eraser</button>
+                <button id="clearbutton" onclick="clearbutton()">Clear</button>
             </div>
         </div>
         <!-- load scripts at the bottom of your page -->
